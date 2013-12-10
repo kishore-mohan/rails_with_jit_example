@@ -41,8 +41,6 @@ GEM
     execjs (2.0.2)
     hike (1.2.3)
     i18n (0.6.9)
-    jit-rails (0.0.2)
-      railties (>= 3.1.0, < 5.0)
     journey (1.0.4)
     jquery-rails (3.0.4)
       railties (>= 3.0, < 5.0)
@@ -71,6 +69,7 @@ GEM
       activesupport (= 3.2.15)
       bundler (~> 1.0)
       railties (= 3.2.15)
+    rails-jit (0.0.7)
     railties (3.2.15)
       actionpack (= 3.2.15)
       activesupport (= 3.2.15)
@@ -110,10 +109,10 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  jit-rails
   jquery-rails
   pg
   rails (= 3.2.15)
+  rails-jit
   sass-rails (~> 3.2.3)
   therubyracer
   uglifier (>= 1.0.3)
