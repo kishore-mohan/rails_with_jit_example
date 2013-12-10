@@ -21,7 +21,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem "jit-rails"
+gem "rails-jit"
 
 
 # To use ActiveModel has_secure_password
