@@ -69,7 +69,7 @@ GEM
       activesupport (= 3.2.15)
       bundler (~> 1.0)
       railties (= 3.2.15)
-    rails-jit (0.0.7)
+    rails-jit (0.0.9)
     railties (3.2.15)
       actionpack (= 3.2.15)
       activesupport (= 3.2.15)
@@ -100,7 +100,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.38)
-    uglifier (2.3.1)
+    uglifier (2.3.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
 
@@ -112,7 +112,7 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 3.2.15)
-  rails-jit
+  rails-jit (~> 0.0.9)
   sass-rails (~> 3.2.3)
   therubyracer
   uglifier (>= 1.0.3)
